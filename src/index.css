@@ -1,13 +1,76 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #d2dbdd;
 }
+.heading__style{
+    padding: 30px 0;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.cards{
+    width: 100%;
+    height: auto;
+}
+.card{
+    margin: 6%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.165, 1);
+    background-color: #fff;
+    width: 21.25%;
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7px black;
+    float: left;
+}
+.card:hover{
+    box-shadow: 0px 30px 18px -8px black;
+    transform: scale(1.05, 1.05);
+}
+.card__img{
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.card__info{
+    background-color: #fff;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 16px 24px 24px 24px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.card__catgorey{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+    background-color: #fff;
+}
+.card__title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    text-transform: capitalize;
+
+}
+button{
+    padding: 5px 8px;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-family: 500;
+    color: #868686;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+
 }
