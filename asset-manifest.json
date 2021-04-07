@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/netflix-prime_video/static/css/main.bbbd262a.chunk.css",
+    "main.js": "/netflix-prime_video/static/js/main.1b8fe649.chunk.js",
+    "main.js.map": "/netflix-prime_video/static/js/main.1b8fe649.chunk.js.map",
+    "runtime-main.js": "/netflix-prime_video/static/js/runtime-main.14cdc494.js",
+    "runtime-main.js.map": "/netflix-prime_video/static/js/runtime-main.14cdc494.js.map",
+    "static/js/2.aecf1f81.chunk.js": "/netflix-prime_video/static/js/2.aecf1f81.chunk.js",
+    "static/js/2.aecf1f81.chunk.js.map": "/netflix-prime_video/static/js/2.aecf1f81.chunk.js.map",
+    "index.html": "/netflix-prime_video/index.html",
+    "static/css/main.bbbd262a.chunk.css.map": "/netflix-prime_video/static/css/main.bbbd262a.chunk.css.map",
+    "static/js/2.aecf1f81.chunk.js.LICENSE.txt": "/netflix-prime_video/static/js/2.aecf1f81.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14cdc494.js",
+    "static/js/2.aecf1f81.chunk.js",
+    "static/css/main.bbbd262a.chunk.css",
+    "static/js/main.1b8fe649.chunk.js"
+  ]
+}
